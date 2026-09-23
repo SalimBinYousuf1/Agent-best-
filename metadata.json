@@ -1,0 +1,6 @@
+{
+  "name": "Salim Assistant",
+  "description": "Autonomous Android personal assistant powered by Groq with voice interaction, actions, and Liquid Glass Apple design.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

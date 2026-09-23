@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center Orb Core Glow -->
+    <path
+        android:pathData="M54,54m-22,0a22,22 0 1,0 44,0a22,22 0 1,0 -44,0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="38"
+                android:endX="68"
+                android:endY="70"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="0.5" android:color="#818CF8" />
+                <item android:offset="1.0" android:color="#C084FC" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Inner Spark/Wave Core in Crisp White -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,39 C55.5,47 61,52.5 69,54 C61,55.5 55.5,61 54,69 C52.5,61 47,55.5 39,54 C47,52.5 52.5,47 54,39 Z" />
+    <!-- Dynamic Orbit Rings (Monochrome with transparency) -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#B0FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M32,54 C32,41.85 41.85,32 54,32 C66.15,32 76,41.85 76,54" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#70FFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M76,54 C76,66.15 66.15,76 54,76 C41.85,76 32,66.15 32,54" />
+    <!-- Active Satellite Dots -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,27m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,81m-2.2,0a2.2,2.2 0 1,0 4.4,0a2.2,2.2 0 1,0 -4.4,0" />
+</vector>
